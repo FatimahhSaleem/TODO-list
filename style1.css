@@ -1,0 +1,180 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background:url(/pexels-andres-victorero-3791630.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+header{
+    background-color: #373C47;
+    color: #F9F3FF;
+    width: 100%;
+    height: 14%;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    margin-top: 9%;
+    margin-bottom: 2%;
+    height: 100%;
+    flex-grow: 1;
+    background-color:#4A41BB;
+    opacity: 85%;
+    width: 40%;
+    /* padding: 60px; */
+    padding-top:2% ;
+    padding-bottom: 2%;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.add{
+    /* display: inline; */
+    background-color: #130e56;
+    padding: 2%;
+    width: 400px;
+    margin-bottom: 6%;
+    margin-left: 10%;
+    margin-right: 5%;
+    
+}
+input{
+    padding: 8px;
+    width: 74%;
+    text-decoration: none;
+    text-decoration-line: none;
+    outline: none;
+    
+}
+button{
+    padding: 8px;
+    padding-left: 6%;
+    padding-right: 6%;
+    background-color: #af65bf;
+    
+}
+.description{
+    background-color: #130e56;
+    margin-left:5%;
+    margin-right:5%;
+    padding: 1.5%;
+}
+table{
+    
+    /* background-color:#D241AD; */
+    text-align: left;
+    border-collapse: collapse;
+    width: 100%;
+    
+    
+}
+thead th{
+    color: #af65bf;
+    padding: 3%;
+    
+    
+    
+    
+}
+tr td{
+    color:whitesmoke;
+    padding: 3%;
+    
+    
+    
+    
+}
+
+
+thead th#id,tbody tr td#id{
+    padding-left: 1%;
+    padding-right: 9px;
+    color: #af65bf;
+}
+thead th#description,tbody tr  td#description{
+    padding-left: 1%;
+    padding-right: 190px;
+}
+thead th#delete ,tbody tr td#delete{
+    padding-left: 1%;
+    padding-right: 2%;
+
+    
+}
+
+i{
+    font-size: 26px; 
+    border: 1px hidden #FDF236;
+    background-color: #af65bf;
+    color:darkblue;
+    margin-right: 5px;
+    margin-left: 10px;
+    padding: 4px;
+    
+    
+}
+tbody tr td i.fas.fa-edit{
+    
+}
+tbody tr td i.fas.fa-times {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+
+
+footer{
+    color:#F9F3FF;
+    background-color: #373C47;
+    opacity: 80%;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+} 
+
+
+
+
+
+
+
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
+                                                                
